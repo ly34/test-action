@@ -10,6 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: foo
-      uses: actions/turn-issues-to-posts-action@v1
+      uses: wayou/turn-issues-to-posts-action@v1
       with:
         who-to-greet: 'Mona the Octocat'
